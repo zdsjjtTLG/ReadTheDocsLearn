@@ -15,9 +15,9 @@ project = 'ReadTheDocsLearn'
 copyright = '2011-2023, Sean Gillies and Shapely contributors'
 
 # The full version, including alpha/beta/rc tags.
-# import shapely
-# release = shapely.__version__.split("+")[0]
-release = '0.2.3'
+import shapely
+release = shapely.__version__.split("+")[0]
+# release = '0.2.3'
 
 # -- General configuration ---------------------------------------------------
 
